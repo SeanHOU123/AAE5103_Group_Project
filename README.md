@@ -5,6 +5,11 @@ This package contains the complete experiment code for our group project,
 Running it end to end regenerates every number, table and figure that the
 report uses. 
 
+`data/raw/Public.xlsx` (159 MB) is stored with **Git LFS**. Install Git LFS
+before cloning (`git lfs install`); if the file arrives as a small pointer file,
+run `git lfs pull`. Cloning without Git LFS still works for the code, and the
+workbook can also be downloaded directly from the repository's web page.
+
 The pipeline reads the two original FAA source files shipped in `data/raw/`,
 builds the airport-month panel, trains and evaluates the four classifiers on a
 strictly chronological split, constructs the seasonal priority calendar, runs
