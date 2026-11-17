@@ -1,0 +1,5 @@
+model,runway_cells,airports,within_airport_spearman,p_value,top1_runway_agreement_pct,damaging_total,capture_model_pct,capture_volume_pct
+Logistic regression,72,20,0.41,0.0003,20,249,28.1,40.2
+Random forest,72,20,0.438,0.0001,20,249,29.3,40.2
+MLP neural network,72,20,0.388,0.0008,20,249,27.7,40.2
+Gradient boosting,72,20,0.414,0.0003,20,249,30.1,40.2

@@ -1,0 +1,4 @@
+method,airport_months_total,airport_months_selected_top20pct,actual_damaging_reports_total,actual_damaging_reports_captured,damage_capture_pct,selected_reported_strikes,selected_damaging_per_100k_operations
+Historical reported-strike rate only,480,96,295,79.0,26.779661016949152,3952.0,3.869347324370815
+Historical rate + predicted damage severity,480,96,295,107.0,36.271186440677965,2227.0,5.170058692245734
+Equal 20% selection benchmark,480,96,295,,20.0,,
